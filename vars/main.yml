@@ -1,0 +1,6 @@
+---
+# vars file for web-svr-1
+    repo_dest: /home/Ansible/Ansible-Class/web-app
+  
+ - include: git_info.yml
+# need a yaml file with the variables "githubuser" and "githubpassword" set
